@@ -1,0 +1,22 @@
+{
+  "name": "@chip-in.asia/skill",
+  "version": "0.1.0",
+  "description": "Add CHIP Payment Gateway skill for integration",
+  "files": [
+    "SKILL.md",
+    "bin/"
+  ],
+  "license": "MIT",
+  "author": "CHIP-IN ASIA",
+  "keywords": [
+    "CHIP",
+    "Payment Gateway Integration",
+    "Skill"
+  ],
+  "bin": {
+    "skill": "bin/install.cjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
