@@ -106,7 +106,7 @@ CHIP_BRAND_ID=
 `.env.example` — safe placeholder to commit to version control:
 ```
 # .env.example
-# Copy this file to .env and fill in your credentials from https://gate.chip-in.asia
+# Copy this file to .env and fill in your credentials from https://portal.chip-in.asia
 CHIP_SECRET_KEY=your_test_mode_secret_key_here
 CHIP_PUBLIC_KEY=your_test_mode_public_key_here
 CHIP_BRAND_ID=your_brand_id_here
