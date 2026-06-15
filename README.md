@@ -1,6 +1,6 @@
+# CHIP Collect — Skill
 
-# Skill
-Add skill for CHIP payment gateway integration.
+Add the CHIP Collect payment-gateway skill to your project.
 
 ### Install a skill
 
@@ -11,7 +11,7 @@ Hosted directly from the GitHub repo (no npm registry required).
 npx -y github:CHIPAsia/skill
 
 # Pinned to a specific tag (recommended for production)
-npx -y github:CHIPAsia/skill#v0.1.0
+npx -y github:CHIPAsia/skill#v0.1.2
 
 # Pinned to a specific commit
 npx -y github:CHIPAsia/skill#<commit-sha>
@@ -65,3 +65,8 @@ It also contains instruction to generate checkout URL for user to create dummy p
 [CHIP API Documentation](https://docs.chip-in.asia/chip-collect/overview/introduction)
 
 [Downloadable CHIP API markdown files](https://notes.chip-in.asia/share/2im42j9bvl/p/chip-collect-api-Npj8FQkPaY)
+
+## Related skills
+
+- [`npx -y github:CHIPAsia/skill`](https://github.com/CHIPAsia/skill) — this one (CHIP Collect)
+- [`npx -y github:CHIPAsia/skill-send`](https://github.com/CHIPAsia/skill-send) — CHIP Send *(coming soon)*
