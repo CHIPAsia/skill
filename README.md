@@ -3,9 +3,21 @@
 Add skill for CHIP payment gateway integration.
 
 ### Install a skill
+
+Hosted directly from the GitHub repo (no npm registry required).
+
 ```bash
- npx @chip-in.asia/skill
+# Latest from the default branch
+npx -y github:CHIPAsia/skill
+
+# Pinned to a specific tag (recommended for production)
+npx -y github:CHIPAsia/skill#v0.1.0
+
+# Pinned to a specific commit
+npx -y github:CHIPAsia/skill#<commit-sha>
 ```
+
+This runs `bin/install.cjs` straight from the repo tarball, which copies `SKILL.md` into a local `chip-skill/` folder.
 
 ### Expected Output 
 
