@@ -27,7 +27,7 @@ CHIP (chip-in.asia) is a Malaysian digital finance platform supporting FPX, cred
 
 Use this when the user wants to quickly test CHIP without a full backend. Guide them to:
 
-1. Log in to https://gate.chip-in.asia → **Developers** → enable **Test Mode**
+1. Log in to https://portal.chip-in.asia/collect → **Developers** → enable **Test Mode**
 2. Copy their **Test Mode API Key** (Secret Key) and **Brand ID**
 
 > ⚠️ **Use the Test Mode API key, not your live key.** The Merchant Portal shows a different Secret Key when Test Mode is toggled ON — that is your test key. Using your live key here may trigger real charges. When in doubt, the test key is usually prefixed or labelled differently in the portal.
@@ -72,14 +72,14 @@ Proceed with the steps below to wire CHIP into a real backend.
 | Base URL | `https://gate.chip-in.asia/api/v1/` |
 | Auth | `Authorization: Bearer <YOUR_SECRET_KEY>` |
 | Content-Type | `application/json` |
-| Docs | https://developer.chip-in.asia/api.html |
+| Docs | https://docs.chip-in.asia/chip-collect/api-reference/purchases/create |
 | GitHub SDKs | https://github.com/CHIPAsia |
 
 ---
 
 ## Step 1 — Get Your Credentials & Generate `.env`
 
-1. Sign up / log in at https://gate.chip-in.asia
+1. Sign up / log in at https://portal.chip-in.asia
 2. Go to **Developers** tab in the Merchant Portal
 3. Toggle **Test Mode** ON — the portal will now display your **Test Mode API key**
 4. Copy your **Test Mode Secret Key** (for API auth) and **Test Mode Public Key** (for webhook verification)
@@ -95,7 +95,7 @@ Proceed with the steps below to wire CHIP into a real backend.
 ```
 # .env
 # CHIP Payment Gateway — Test Mode credentials
-# Get these from https://gate.chip-in.asia → Developers (toggle Test Mode ON)
+# Get these from https://portal.chip-in.asia/collect → Developers (toggle Test Mode ON)
 # ⚠️ Never commit this file. Make sure .env is in your .gitignore.
 
 CHIP_SECRET_KEY=
@@ -106,7 +106,7 @@ CHIP_BRAND_ID=
 `.env.example` — safe placeholder to commit to version control:
 ```
 # .env.example
-# Copy this file to .env and fill in your credentials from https://gate.chip-in.asia
+# Copy this file to .env and fill in your credentials from https://portal.chip-in.asia
 CHIP_SECRET_KEY=your_test_mode_secret_key_here
 CHIP_PUBLIC_KEY=your_test_mode_public_key_here
 CHIP_BRAND_ID=your_brand_id_here
@@ -401,7 +401,7 @@ If a ready-made SDK exists for the user's language, recommend it over raw HTTP c
 
 ## References
 
-- API Docs: https://developer.chip-in.asia/api.html
+- API Docs: https://docs.chip-in.asia/chip-collect/api-reference/purchases/create
 - Webhooks Guide: https://blog.chip-in.asia/chip-api-webhooks/
 - GitHub (all SDKs & plugins): https://github.com/CHIPAsia
-- Merchant Portal: https://gate.chip-in.asia
+- Merchant Portal: https://portal.chip-in.asia/collect
