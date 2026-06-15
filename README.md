@@ -47,9 +47,9 @@ A dummy payment link would not redirect you to a bank page.
 
 Get your credentials here: 
 
-[Refer here for your brand ID](https://staging-portal.chip-in.asia/collect/developers/api-keys)
+[Refer here for your brand ID](https://portal.chip-in.asia/collect/developers/api-keys)
 
-[Refer here for your API keys](https://staging-portal.chip-in.asia/collect/developers/api-keys)
+[Refer here for your API keys](https://portal.chip-in.asia/collect/developers/api-keys)
 
 
 
