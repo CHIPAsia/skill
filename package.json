@@ -1,5 +1,5 @@
 {
-  "name": "@chip-in.asia/skill",
+  "name": "chip-skill",
   "version": "0.1.2",
   "description": "Add CHIP Payment Gateway skill for integration",
   "files": [
@@ -7,7 +7,7 @@
     "bin/"
   ],
   "license": "MIT",
-  "author": "CHIP-IN ASIA",
+  "author": "CHIP IN SDN. BHD.",
   "repository": {
     "type": "git",
     "url": "https://github.com/CHIPAsia/skill"
@@ -19,8 +19,5 @@
   ],
   "bin": {
     "skill": "bin/install.cjs"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
