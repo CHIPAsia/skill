@@ -8,6 +8,10 @@
   ],
   "license": "MIT",
   "author": "CHIP-IN ASIA",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CHIPAsia/skill"
+  },
   "keywords": [
     "CHIP",
     "Payment Gateway Integration",
